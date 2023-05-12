@@ -140,7 +140,7 @@ export default function Home() {
           <p className="text-2xl text-center font-semibold mt-8 text-gray-500">
             Some recent trip photos are shared in front of you
           </p>
-          <div className="mt-10 flex justify-between h-[700px]">
+          <div className="mt-10 flex justify-between h-[640px]">
             <RecentlySwiper />
           </div>
         </section>
