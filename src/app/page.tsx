@@ -13,14 +13,21 @@ import RecentlySwiper from "@/components/RecentlySwiper";
 
 // import required modules
 
-const COURSES = [
-  { value: "Computer Foundation", label: "Computer Foundation" },
-  { value: "Frontend", label: "Frontend" },
-  { value: "1C", label: "1C" },
-  { value: "Python", label: "Python" },
-  { value: "Graphic Design", label: "Graphic Design" },
-  { value: "SMM", label: "SMM" },
-  { value: "Mobilografiya", label: "Mobilografiya" },
+const PEOPLES = [
+  { value: "1", label: "1" },
+  { value: "2", label: "2" },
+  { value: "3", label: "3" },
+  { value: "4", label: "4" },
+  { value: "5 Design", label: "5" },
+  { value: "5>", label: "5>" },
+];
+
+const LOCATIONS = [
+  { value: "1", label: "Nukus" },
+  { value: "2", label: "Tashkent" },
+  { value: "3", label: "New York" },
+  { value: "4", label: "Berlin" },
+  { value: "5 Design", label: "Chicago" },
 ];
 
 export default function Home() {
@@ -70,11 +77,11 @@ export default function Home() {
         <section className="mt-24">
           <div className="flex justify-between items-start bg-white p-8 rounded-xl">
             <div className="w-1/4">
-              <SelectField placeHolder="Location" options={COURSES} />
+              <SelectField placeHolder="Location" options={LOCATIONS} />
               <p className="text-gray-500 text-lg mt-4">Where do you wanna go?</p>
             </div>
             <div className="w-1/4">
-              <SelectField placeHolder="People" options={COURSES} />
+              <SelectField placeHolder="People" options={PEOPLES} />
               <p className="text-gray-500 text-lg mt-4">How many people?</p>
             </div>
             <div className="w-1/4">
