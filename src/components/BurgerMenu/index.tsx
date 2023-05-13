@@ -89,18 +89,7 @@ function BurgerMenu({ isOpen, close }: Props) {
               id="about"
               className="block font-medium text-gray-500 transition-all cursor-pointer group-hover:text-primary-500 text-md menu-item"
             >
-              Об услуге
-            </a>
-          </div>
-
-          <div className="flex flex-row items-center space-x-4 group flex-nowrap">
-            <a
-              onClick={() => close()}
-              id="contact"
-              href="#cctv"
-              className="block font-medium text-gray-500 transition-all cursor-pointer group-hover:text-primary-500 text-md menu-item"
-            >
-              Видеонаблюдение <br /> на транспорте
+              О нас
             </a>
           </div>
 
