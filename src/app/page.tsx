@@ -11,7 +11,10 @@ import React from "react";
 
 import "swiper/css";
 import "swiper/css/pagination";
-
+export const metadata = {
+  title: "Inter Travel",
+  description: "You can give us a tour to Remember forever!",
+};
 
 export default function Home() {
   return (
