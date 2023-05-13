@@ -6,7 +6,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 function CustomDatePicker() {
   const [startDate, setStartDate] = useState<any>(new Date());
-  return <DatePicker selected={startDate} onChange={(date: any) => setStartDate(date)} />;
+  return <DatePicker selected={startDate} onChange={(date: any) => setStartDate(date)} className="p-4 border rounded-md w-full outline-none border-gray-300"/>;
 }
 
 export default CustomDatePicker;
