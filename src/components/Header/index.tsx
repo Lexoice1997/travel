@@ -18,7 +18,6 @@ function Header() {
 
   };
 
-  window.addEventListener("scroll", chnagebackground);
   return (
     <header className="py-5 sm:py-8 flex justify-between items-center">
       <Image
