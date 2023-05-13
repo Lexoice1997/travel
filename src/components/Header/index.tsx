@@ -10,18 +10,12 @@ function Header() {
   const [navbar, setNavbar] = useState(false);
 
   const disableScroll = () => {
-    document.body.style.overflow = "hidden";
   };
   const enableScroll = () => {
-    document.body.style.overflow = "auto";
   };
 
   const chnagebackground = () => {
-    if (window.scrollY >= 127) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
+
   };
 
   window.addEventListener("scroll", chnagebackground);
