@@ -28,7 +28,7 @@ function Order() {
         <div className="flex justify-between sm:flex-row flex-col items-start ">
           <div className="sm:w-1/2 w-full sm:mr-10 mr-0">
             <div className="w-full mb-4">
-              <SelectField placeHolder="Location" options={LOCATIONS} />
+              <input type="text" className="border-gray-400 border rounded-md sm:w-1/2 w-full p-3 outline-none" />
               <p className="text-gray-500 text-lg mt-4">
                 What is your phone number?
               </p>
